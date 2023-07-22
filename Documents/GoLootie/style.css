@@ -1,0 +1,93 @@
+#head{
+    background-color: black;
+    background-size:cover;
+    background-attachment: fixed;
+    text-align:center;
+    height: 90px;
+}
+#head1{
+    color: white;
+    font-size: 30px;
+}
+#head1::first-letter{
+    color:red;
+}
+.speacial-letter1{
+    color:yellow;
+}
+#p1{
+    text-align: center;
+    color: rgb(255, 0, 191);
+    font-size: 25px;
+    font-display: bold;
+    font-family: 'Times New Roman', Times, serif;
+}
+.social-icons {
+list-style: none;
+padding: 0px;
+margin: 0px;
+}
+
+.social-icons li {
+display: inline-block;
+margin-right: 10px;
+}
+
+.social-icons li:last-child {
+margin-right: 0;
+}
+
+.social-icons a {
+font-size: 32px; }
+#icon1{
+color:blue ;
+}
+#icon2{
+color: red;
+}
+#icon3{
+color: aqua;
+}
+.product-listing {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  
+  .product-item {
+    width: 50%; /* On mobile, each item occupies the full width */
+    text-align: center;
+  }
+  
+  .product-item img {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+  }
+  
+  .buy-link {
+    display: inline-block;
+    background-color: #333;
+    color: #fff;
+    padding: 8px 16px;
+    text-decoration: none;
+  }
+  /* Media query for desktop */
+@media screen and (min-width: 768px) {
+    .product-item {
+      width: calc(50% - 10px); /* On desktop, each item occupies 50% of the width with a 10px margin in between */
+    }
+  }
+  
+  /* Media query for larger desktop screens */
+  @media screen and (min-width: 1200px) {
+    .product-item {
+      width: calc(25% - 15px); /* On larger desktop screens, each item occupies 25% of the width with a 15px margin in between */
+    }
+  }
+  .login-icon {
+    text-align: right;
+    font-size: 40px;
+    cursor: pointer;
+    color: #007bff; /* Change the color as needed */
+}
