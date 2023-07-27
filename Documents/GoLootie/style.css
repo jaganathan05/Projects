@@ -48,46 +48,8 @@ color: red;
 #icon3{
 color: aqua;
 }
-.product-listing {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-  }
-  
-  .product-item {
-    width: 50%; /* On mobile, each item occupies the full width */
-    text-align: center;
-  }
-  
-  .product-item img {
-    max-width: 100%;
-    height: auto;
-    margin-bottom: 10px;
-  }
-  
-  .buy-link {
-    display: inline-block;
-    background-color: #333;
-    color: #fff;
-    padding: 8px 16px;
-    text-decoration: none;
-  }
-  /* Media query for desktop */
-@media screen and (min-width: 768px) {
-    .product-item {
-      width: calc(50% - 10px); /* On desktop, each item occupies 50% of the width with a 10px margin in between */
-    }
-  }
-  
-  /* Media query for larger desktop screens */
-  @media screen and (min-width: 1200px) {
-    .product-item {
-      width: calc(25% - 15px); /* On larger desktop screens, each item occupies 25% of the width with a 15px margin in between */
-    }
-  }
-  .login-icon {
-    text-align: right;
-    font-size: 40px;
-    cursor: pointer;
-    color: #007bff; /* Change the color as needed */
+#icon4{
+  font-size: 16px;
+  color: white;
+  float: right;
 }
